@@ -1,0 +1,35 @@
+.exercise-card {
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.exercise-card__name {
+  font-weight: var(--font-semibold);
+  font-size: 13px;
+  color: #000;
+  text-align: right;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exercise-card__info {
+  align-items: center;
+  display: flex;
+}
+
+.exercise-card__sets {
+  font-weight: var(--font-bold);
+  color: #919cad;
+  font-size: 10px;
+}
+
+.exercise-card__detail {
+  font-weight: var(--font-normal);
+  font-size: 10px;
+  color: #95a6b7;
+  margin-left: auto;
+}

@@ -1,0 +1,66 @@
+.app-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.app-container__column {
+  flex: 1 0 14.2857%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.app-container__content {
+  background: var(--light-gray);
+  border-radius: 6px;
+  opacity: 0.8017;
+  height: 100vh;
+}
+
+.app-container__workout-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container__workout-content--empty {
+  background: var(--light-gray);
+}
+
+.app-container__header {
+  display: flex;
+  padding: 10px;
+}
+
+.app-container__add-workout-icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.app-container__day-name {
+  font-weight: var(--font-semibold);
+  font-size: 10px;
+  color: var(--gray-color);
+}
+
+.app-container__day-number {
+  font-weight: var(--font-semibold);
+  font-size: 11px;
+  color: #728096;
+}
+
+.app-container__day-number--active {
+  font-weight: var(--font-bold);
+  font-size: 11px;
+  color: #5a57cb;
+}
+
+.app-container__workout-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container__placeholder {
+  min-height: 300px;
+  background: var(--light-gray);
+  pointer-events: all;
+}

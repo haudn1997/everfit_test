@@ -1,0 +1,21 @@
+:root {
+  --gray-color: #6A7988;
+  --light-gray: #f3f5f8;
+  --font-normal: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-size: 16px;
+  --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
